@@ -1,0 +1,40 @@
+#HCA-navigation {
+  list-style: none;
+  background-color: #01193e;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex: 0 1 auto;
+  margin: 0;
+  padding: 0px 10px;;
+  height: 50px;
+  align-items: center;
+  
+}
+
+/* create unique spacing between items */
+#HCA-navigation > * {
+  flex: 1 1 auto;
+}
+
+#video-buttons-container {
+  justify-content: space-between;
+}
+
+.video-buttons {
+  outline: none;
+  background: transparent;
+  color: white;
+  border: none;
+  margin: 0px 10px;
+}
+
+
+
+#HCA-navigation > input {
+  height: 40px;
+}
+
+#HCA-user{
+  text-align: end;
+}

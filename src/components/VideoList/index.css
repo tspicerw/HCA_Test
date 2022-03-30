@@ -1,0 +1,35 @@
+#video-list-container{
+    list-style: none;
+}
+
+iframe{
+    margin: 0 auto;
+}
+.video-list-items{
+    background-color: white;
+    display: flex;
+    width: 50%;
+    margin: 15px auto;
+    padding: 10px;
+    box-shadow: 5px 5px 10px #f3f3f3;
+    align-items: center;
+}
+
+.video-list-items:hover{
+    border: 1px solid blue;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.video-list-items > *{
+   flex: 1 1 auto;
+}
+
+
+#video-info > p{
+   color: #bdbdbd;
+}
+
+#video-info > span{
+    font-weight: bold;
+ }
